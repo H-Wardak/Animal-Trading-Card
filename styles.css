@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+	width: 321px;
+	font-family: "Times New Roman", Arial;
+	font-size: 15px;
+	box-shadow: 6px 6px 2px 0px #ddd;
+	border: .5px solid #bfbfbf;
+}
+
+.animal_pic {
+	margin: 10px;
+}
+
+.animal_info {
+	padding: 0px 10px; 
+	/*
+	One value applies to all four sides.
+	Two values apply first to top and bottom, the second one to left and right.
+	Three values apply first to top, second to left and right and third to bottom.
+	Four values apply to top, right, bottom and left in that order (clockwise)
+	*/
+	margin: 10px;
+	border: .5px solid #bfbfbf;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.item_bold {
+	font-weight: bold;
+}
